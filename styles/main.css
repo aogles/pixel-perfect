@@ -1,4 +1,6 @@
 hr{
+    position: relative;
+    top: -35px;
 margin: .2in;
 width: 100%;
 }
@@ -11,32 +13,64 @@ width: 100%;
     
 }
 .box1{
-    width: 645px;
-    height: 810px;
-    border: 5px solid green;
+    position: relative;
+    width: 650px;
+    height: 820px;
+    top: -10px;
+    border: 2px solid green;
     padding: 50px;
     margin-left: 1.5in;
 }
 
 .box1 img{
  position: relative;
- display: flex;
-height: 480px;
-width:755px;
-align-content: center;
+top: -45px;
+left: -50px;
+height: 475px;
+width:750px;
 margin: 0px;
+padding-right: 2em;
+align-items: left 2em;
 }
 
 .box2 {
-    width: 300px;
-    border: 15px solid green;
+    position: relative;
+    top: -25px;
+    left: 10px;
+    align-items: flex-start;
+    height: 445px;
+    min-width: 260px;
+    border: 2px solid green;
     padding: 50px;
     margin: 20px;
 }
+.box2 img{
+    position: relative;
+    width: 360px;
+    height: 180px;
+    top: -50px;
+    left: -50px;
+    
+}
+
+ .circlepicture {
+    position: absolute;
+    border-radius: 50%;
+    left: 10.6in;
+    top: 2.2in;
+    height: 180px;
+    width: 180px;
+    border: 6px solid rgb(254, 255, 255);
+
+}
 
 .box3{
-    width: 300px;
-    border: 15px solid green;
+    position: relative;
+    top: 555px;
+    right: 390px;
+    min-height: 880px;
+    min-width: 250px;
+    border: 2px solid green;
     padding: 50px;
     margin: 20px;
 }
@@ -44,11 +78,12 @@ margin: 0px;
 
 
 .flexbox-container1{
+    position: relative;
 width: 100%; 
 position: relative;
 justify-content: flex;
 margin-top: 0px;
-
+border: 2px solid green;
 
 }
 
@@ -64,13 +99,18 @@ a:link {
 
 }
 
-    .logos{
+    .box-logos{
+        position: relative;
         display: inline-block;
-        padding: 5px;
+        top: -30px;
+        left: 70px;
+        width: 200px;
+        padding-left: 10px;
         font-size: 12px;
         text-decoration: none;
         list-style-type: none;
         margin-left: 11in;
+        border: 2px solid green;
 
     }
 
