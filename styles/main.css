@@ -1,57 +1,76 @@
-.flexbox-container1{
-    width: 100%; 
+hr{
+margin: .2in;
+width: 100%;
 }
 
-.record-photo {
-     position: relative;
+.flexbox-container{
     display: flex;
-height: 480px;
-width: 755.2px;
-align-items: center;
-margin-left: 1.52in;
-margin-top: .2in;
-
+    justify-content: flex-start;
+    height: 800px;
+    width: 800px;
+    
+}
+.box1{
+    width: 645px;
+    height: 810px;
+    border: 5px solid green;
+    padding: 50px;
+    margin-left: 1.5in;
 }
 
-#navbar{
+.box1 img{
+ position: relative;
+ display: flex;
+height: 480px;
+width:755px;
+align-content: center;
+margin: 0px;
+}
+
+.box2 {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+.box3{
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+
+
+.flexbox-container1{
 width: 100%; 
 position: relative;
 justify-content: flex;
-margin-top: .1in;
+margin-top: 0px;
+
 
 }
+
 a:link { 
     text-decoration: none;
  }
 
 .nav-list{
-    font-family: "Playfair+Display";
-    display: inline-block;
-    position: relative;
-    width: 100%;
-    margin-right: 9.5in;
-    padding-left: 1.8in;
-    list-style: none;
-   word-spacing: 2px;
+   display: inline-block;
+   margin-left: 1in;
    text-decoration: none;
+   list-style: none;
+
 }
 
-.logos{
-    position: relative;
-margin-left: 10in;
-margin-right: 20px;
-margin-top: 0px;
-text-decoration: none;
-list-style: none;
-display: inline-block;
-length: 100%;
-
-    }
-
-    i{
-        display:flex;
+    .logos{
+        display: inline-block;
         padding: 5px;
         font-size: 12px;
+        text-decoration: none;
+        list-style-type: none;
+        margin-left: 11in;
 
     }
 
