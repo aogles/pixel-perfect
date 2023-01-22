@@ -1,0 +1,61 @@
+.flexbox-container1{
+    width: 100%; 
+}
+
+.record-photo {
+     position: relative;
+    display: flex;
+height: 480px;
+width: 755.2px;
+align-items: center;
+margin-left: 1.52in;
+margin-top: .2in;
+
+}
+
+#navbar{
+width: 100%; 
+position: relative;
+justify-content: flex;
+margin-top: .1in;
+
+}
+a:link { 
+    text-decoration: none;
+ }
+
+.nav-list{
+    font-family: "Playfair+Display";
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-right: 9.5in;
+    padding-left: 1.8in;
+    list-style: none;
+   word-spacing: 2px;
+   text-decoration: none;
+}
+
+.logos{
+    position: relative;
+margin-left: 10in;
+margin-right: 20px;
+margin-top: 0px;
+text-decoration: none;
+list-style: none;
+display: inline-block;
+length: 100%;
+
+    }
+
+    i{
+        display:flex;
+        padding: 5px;
+        font-size: 12px;
+
+    }
+
+    .fa-facebook-f{
+
+        padding-right: 10px 
+    }
