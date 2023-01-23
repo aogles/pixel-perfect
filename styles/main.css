@@ -18,7 +18,7 @@ width: 100%;
     width: 650px;
     height: 820px;
     top: -5px;
-    border: 2px solid green;
+    border: 1px solid rgb(143, 144, 143);
     padding: 50px;
     margin-left: 1.5in;
 }
@@ -67,7 +67,13 @@ width: 100%;
     height: 50%px;
     width: 50%px;
 }
-
+.box1 h5{
+    position: relative;
+    top: -45px;
+    left: -245px;
+    font-size: 15px;
+    font-family: "thin lato";
+}
 
 .box1 img{
  position: relative;
@@ -87,7 +93,7 @@ align-items: left 2em;
     align-items: flex-start;
     height: 445px;
     min-width: 260px;
-    border: 2px solid green;
+    border: 1px solid rgb(143, 144, 143);
     padding: 50px;
     margin: 20px;
     
@@ -150,7 +156,7 @@ align-items: left 2em;
     right: 390px;
     min-height: 880px;
     min-width: 250px;
-    border: 2px solid green;
+    border: 2px solid rgb(143, 144, 143);
     padding: 50px;
     margin: 20px;
 }
@@ -258,3 +264,293 @@ a:link {
 
     }
 
+    .box4{
+        position: relative;
+        text-align: center;
+        width: 650px;
+        height: 820px;
+        top: 167px;
+        border: 2px solid rgb(143, 144, 143);
+        padding: 50px;
+        margin-left: 1.5in;
+    }
+    .box4 h4{
+        position: relative;
+        top: -35px;
+        font-family: "thin lato";
+        color: orange;
+    }
+    
+    .box4 h2{
+        position: relative;
+        top: -45px;
+        font-family: "Latin";
+    }
+    .box4 p{
+        position: relative;
+        top: -40px;
+        line-height: 25px;
+        text-align: left;
+    }
+    .box4 button{
+        position: relative;
+        align-items: center;
+        color: orange;
+        font-size: 11px;
+        font-family: "thin lato";
+        top: -20px;
+        height: 40px;
+        width: 175px;
+        left: 3px;
+        border: orange solid 2px;
+    }
+    .box4 hr{
+        position: relative;
+        top: 1px;
+    }
+    .box4 i{
+        position: relative;
+        right: -278px;
+        font-size: 14px;
+        letter-spacing: 15px;
+        top: -1px;
+        color: grey;
+        border-radius: 50%;
+        height: 50%px;
+        width: 50%px;
+    }
+    .box4 h5{
+        position: relative;
+        top: -45px;
+        left: -245px;
+        font-size: 15px;
+        font-family: "thin lato";
+    }
+    
+    .box4 img{
+     position: relative;
+    top: -50px;
+    left: -50px;
+    height: 475px;
+    width:750px;
+    margin: 0px;
+    padding-right: 2em;
+    align-items: left 2em;
+    }
+
+    .box5{
+        position: relative;
+        text-align: center;
+        width: 650px;
+        height: 840px;
+        top: 345px;
+        border: 2px solid rgb(143, 144, 143);;
+        padding: 50px;
+        margin-left: 1.5in;
+    }
+    .box5 h4{
+        position: relative;
+        top: -30px;
+        font-family: "thin lato";
+        color: orange;
+    }
+    
+    .box5 h2{
+        position: relative;
+        top: -40px;
+        font-family: "Latin";
+    }
+    .box5 p{
+        position: relative;
+        top: -35px;
+        line-height: 25px;
+        text-align: left;
+    }
+    .box5 button{
+        position: relative;
+        align-items: center;
+        color: orange;
+        font-size: 11px;
+        font-family: "thin lato";
+        top: -15px;
+        height: 40px;
+        width: 175px;
+        left: 3px;
+        border: orange solid 2px;
+    }
+    .box5 hr{
+        position: relative;
+        top: 1px;
+    }
+    .box5 i{
+        position: relative;
+        right: -278px;
+        font-size: 14px;
+        letter-spacing: 15px;
+        top: 2px;
+        color: grey;
+        border-radius: 50%;
+        height: 50%px;
+        width: 50%px;
+    }
+    .box5 h5{
+        position: relative;
+        top: -40px;
+        left: -245px;
+        font-size: 15px;
+        font-family: "thin lato";
+    }
+    
+    .box5 img{
+     position: relative;
+    top: -50px;
+    left: -50px;
+    height: 495px;
+    width:750px;
+    margin: 0px;
+    padding-right: 2em;
+    align-items: left 2em;
+    }
+    
+    .box6{
+        position: relative;
+        text-align: center;
+        background-color: white;
+        width: 650px;
+        height: 840px;
+        top: 545px;
+        border: 2px solid rgb(143, 144, 143);
+        padding: 50px;
+        margin-left: 1.5in;
+    }
+    .box6 h4{
+        position: relative;
+        top: -30px;
+        font-family: "thin lato";
+        color: orange;
+    }
+    
+    .box6 h2{
+        position: relative;
+        top: -40px;
+        font-family: "Latin";
+    }
+    .box6 p{
+        position: relative;
+        top: -35px;
+        line-height: 25px;
+        text-align: left;
+    }
+    .box6 button{
+        position: relative;
+        align-items: center;
+        color: orange;
+        font-size: 11px;
+        font-family: "thin lato";
+        top: -18px;
+        height: 40px;
+        width: 175px;
+        left: 3px;
+        border: orange solid 2px;
+    }
+    .box6 hr{
+        position: relative;
+        top: -1px;
+    }
+    .box6 i{
+        position: relative;
+        right: -278px;
+        font-size: 14px;
+        letter-spacing: 15px;
+        top: 2px;
+        color: grey;
+        border-radius: 50%;
+        height: 50%px;
+        width: 50%px;
+    }
+    .box6 h5{
+        position: relative;
+        top: -45px;
+        left: -245px;
+        font-size: 15px;
+        font-family: "thin lato";
+    }
+    
+    .box6 img{
+     position: relative;
+    top: -50px;
+    left: -50px;
+    height: 470px;
+    width:750px;
+    margin: 0px;
+    padding-right: 2em;
+    align-items: left 2em;
+    }
+
+   .flexbox-container2{
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    bottom: 1614px;
+    left: 9.5in;
+    align-items: flex-start;
+    text-align: center;
+    height: 410px;
+    width: 250px;
+    border: 1px solid green;
+    padding: 50px;
+    margin: 20px;
+    
+} 
+
+.box7{
+    position: relative;
+    height: 170px;
+    width: 350px;
+    text-align: center;
+    right: 50px;
+    bottom: 50px;
+    border: 2px solid green;
+    justify-content: left;
+}
+ .box8{
+    position: relative;
+    height: 155px;
+    width: 350px;
+    text-align: center;
+    border: 2px solid green;
+    right: 50px;
+    bottom: 50px;
+ }
+  .box9{
+    position: relative;
+    height: 160px;
+    width: 350px;
+    text-align: center;
+    border: 2px solid green;
+    right: 50px;
+    bottom: 50px;
+  }
+  
+  .box10 {
+     position: relative;
+    height: 185px;
+    width: 350px;
+    text-align: center;
+    border: 2px solid green;
+    right: 50px;
+    bottom: 50px;
+}
+.box7img, .box8img, .box9img, .box10img{
+    position: relative;
+    height: 75px;
+    width: 100px;
+    right: 100px;
+}
+.box7img{
+    top: 15px;
+}
+
+.box8img{
+    top: 15px; 
+}
