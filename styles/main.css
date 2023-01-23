@@ -43,6 +43,7 @@ align-items: left 2em;
     border: 2px solid green;
     padding: 50px;
     margin: 20px;
+    
 }
 .box2 img{
     position: relative;
@@ -53,7 +54,39 @@ align-items: left 2em;
     
 }
 
- .circlepicture {
+.box2 h3{
+    position: relative;
+    text-align: center;
+    top: 50px;
+    font-family: "Lato";
+}
+.box2 p {
+    position: relative;
+    text-align: center;
+    font-family: "Playfair+Display";
+    top: 60px;
+}
+.box2 i {
+    position: relative;
+    align-items: center;
+    font-size: 10px;
+    top: 70px;
+    color: grey;
+    border-radius: 50%;
+    height: 50%px;
+    width: 50%px;
+    left: 30px;
+    right: 10px;
+    margin-left: 0px;
+    margin-right: 10px;
+    padding: 7px;
+    border: 1px solid grey;
+    
+    
+
+}
+
+.circlepicture {
     position: absolute;
     border-radius: 50%;
     left: 10.6in;
@@ -73,6 +106,47 @@ align-items: left 2em;
     border: 2px solid green;
     padding: 50px;
     margin: 20px;
+}
+.box3 h2{
+    position: relative;
+    top: -35px;
+    text-align: center;
+}
+
+.box3 h3{
+    position: relative;
+    font-size: 15px;
+    top: -35px;
+}
+
+.box3 p{
+    position: relative;
+    text-align: left;
+    font-size: 15px;
+    top: -35px;
+}
+
+.box3 hr{
+    position: relative;
+    width: 100%;
+}
+    
+    
+
+.box3img1 {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    top: -30px;
+    left: -25px;
+}
+
+.box3img2 {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    top: -40px;
+    left: -25px;
 }
 
 
@@ -113,6 +187,7 @@ a:link {
         border: 2px solid green;
 
     }
+
 
     .fa-facebook-f{
 
