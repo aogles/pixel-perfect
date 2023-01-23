@@ -652,3 +652,12 @@ right: 320px;
     top: -20px;
     right: 165px;
 }
+
+.flexbox-container4 img{
+position: relative;
+display: flex;
+
+    width: 145px;
+    height: 145px;
+    padding: 5px;
+}
