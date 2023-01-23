@@ -507,8 +507,8 @@ a:link {
     align-items: flex-start;
     text-align: center;
     height: 410px;
-    width: 250px;
-    border: 1px solid green;
+    width: 255px;
+    border: 1px solid rgb(218, 222, 218);
     padding: 50px;
     margin: 20px;
     
@@ -521,7 +521,6 @@ a:link {
     text-align: center;
     right: 50px;
     bottom: 50px;
-    border: 2px solid green;
     justify-content: left;
 }
 .box7 hr{
@@ -534,7 +533,6 @@ a:link {
     height: 155px;
     width: 350px;
     text-align: center;
-    border: 2px solid green;
     right: 50px;
     bottom: 50px;
  }
@@ -549,17 +547,22 @@ a:link {
     height: 160px;
     width: 350px;
     text-align: center;
-    border: 2px solid green;
     right: 50px;
     bottom: 50px;
   }
+
+  .box9 hr{
+    position: relative;
+    top: 5px;
+    right: 10x;
+    width: 300px;
+ }
   
   .box10 {
      position: relative;
     height: 185px;
     width: 350px;
     text-align: center;
-    border: 2px solid green;
     right: 50px;
     bottom: 50px;
 }
@@ -575,4 +578,77 @@ a:link {
 
 .box8img{
     top: 15px; 
+}
+
+
+.flexbox-container3{
+    position: relative;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(2, 200px);
+    bottom: 1590px;
+    left: 9.5in;
+    align-items: flex-start;
+    text-align: center;
+    height: 470px;
+    width: 255px;
+    border: 1px solid rgb(30, 75, 30);
+    padding: 50px;
+    margin: 20px;
+    
+}
+.flexbox-container3 img{
+
+    position: relative;
+    display: inline-block;
+    width: 145px;
+    height: 145px;
+    padding: 5px;
+}
+.box11{
+    position: relative;
+    font-size: 11px;
+    font-family: "oswald";
+    font-weight: 100;
+    letter-spacing: 1px;
+    top: -30px;
+    right: 15px;
+    width: 3in;
+    text-align: center;
+    
+}
+
+.box12{
+    position: relative;
+    width: 150px;
+    height: 340px;
+    top: -175px;
+    right: 30px;
+
+
+}
+
+.box13{
+    position: relative; 
+    top: 25px;
+    right: 165px;
+
+}
+.box14{
+   
+}
+
+.box14img{
+position: relative;
+top: 140px;
+right: 320px;
+
+}
+
+
+.box14img2{
+    position: relative;
+    top: -20px;
+    right: 165px;
 }
