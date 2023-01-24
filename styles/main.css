@@ -2,16 +2,11 @@ body{
 background-color: rgb(244, 239, 239);
 }
 
-hr{
-    position: relative;
-    top: -35px;
-margin: .2in;
-width: 100%;
-}
+
 
 .flexbox-container{
     display: flex;
-    justify-content: flex-start;
+    position: relative;
     height: 800px;
     width: 800px;
    
@@ -22,7 +17,7 @@ width: 100%;
     text-align: center;
     width: 650px;
     height: 820px;
-    top: -5px;
+    top: 35px;
     border: 1px solid rgb(143, 144, 143);
     padding: 50px;
     margin-left: 1.5in;
@@ -60,14 +55,14 @@ width: 100%;
 }
 .box1 hr{
     position: relative;
-    top: 1px;
+    top: 10px;
 }
 .box1 i{
     position: relative;
     right: -278px;
     font-size: 14px;
     letter-spacing: 15px;
-    top: -1px;
+    top: 25px;
     color: grey;
     border-radius: 50%;
     height: 50%px;
@@ -75,7 +70,7 @@ width: 100%;
 }
 .box1 h5{
     position: relative;
-    top: -45px;
+    top: -20px;
     left: -245px;
     font-size: 15px;
     font-family: "thin lato";
@@ -94,7 +89,7 @@ align-items: left 2em;
 
 .box2 {
     position: relative;
-    top: -25px;
+    top: 15px;
     left: 10px;
     align-items: flex-start;
     height: 445px;
@@ -123,19 +118,20 @@ align-items: left 2em;
 .box2 p {
     position: relative;
     text-align: center;
-    font-family: "Playfair+Display";
-    top: 60px;
+    font-family: lato;
+    line-height: 20px;
+    top: 55px;
 }
 .box2 i {
     position: relative;
     align-items: center;
-    font-size: 10px;
+    font-size: 11px;
     top: 70px;
     color: grey;
     border-radius: 50%;
     height: 50%px;
     width: 50%px;
-    left: 30px;
+    left: 35px;
     right: 10px;
     margin-left: 0px;
     margin-right: 10px;
@@ -150,7 +146,7 @@ align-items: left 2em;
     position: absolute;
     border-radius: 50%;
     left: 10.6in;
-    top: 2.2in;
+    top: 140px;
     height: 180px;
     width: 180px;
     border: 6px solid rgb(254, 255, 255);
@@ -159,10 +155,10 @@ align-items: left 2em;
 
 .box3{
     position: relative;
-    top: 555px;
+    top: 600px;
     right: 390px;
     min-height: 880px;
-    min-width: 250px;
+    min-width: 255px;
     border: 1px solid rgb(143, 144, 143);
     padding: 50px;
     margin: 20px;
@@ -172,25 +168,36 @@ align-items: left 2em;
     position: relative;
     top: -35px;
     text-align: center;
+    font-family: oswald;
+    font-weight: normal;
+    font-size: 20px;
 }
 
 .box3 h3{
     position: relative;
     font-size: 15px;
-    top: -35px;
+    font-family: oswald;
+    font-weight: normal;
+    top: -25px;
+    left: -15px;
 }
 
 .box3 p{
     position: relative;
     text-align: left;
-    font-size: 15px;
-    top: -35px;
+    font-size: 14px;
+    font-family: oswald ;
+    font-style: italic;
+    letter-spacing: 1px;
+    top: -25px;
+    left: -20px;
 }
 
 .box3 hr{
     position: relative;
     width: 300px;
-    left: -40px;
+    left: -25px;
+    top: -25px
 }
     
     
@@ -199,24 +206,27 @@ align-items: left 2em;
     position: relative;
     width: 300px;
     height: 200px;
-    top: -30px;
-    left: -25px;
+    top: -20px;
+    left: -20px;
 }
 
 .box3img2 {
     position: relative;
     width: 300px;
     height: 200px;
-    top: -40px;
-    left: -25px;
+    top: -15px;
+    left: -20px;
 }
 .hr2 {
     position: relative;
-    top: -45px;
+    padding-top: 4px;
 }
-.secondh3 {
+h3 .second {
     position: relative;
-    top: -30px;
+    font-size: 15px;
+    font-family: oswald;
+    font-weight: normal;
+    top: 5px;
 }
 
 
@@ -224,13 +234,14 @@ align-items: left 2em;
     position: relative;
     width: 300px;
     height: 200px;
-    top: -45px;
-    left: -25px;
+    top: -3px;
+    left: -20px;
+    padding-bottom: 7px;
 }
 
 .h3 {
     position: relative;
-    top: -px;
+    top: 2px;
 }
 
 
@@ -238,11 +249,9 @@ align-items: left 2em;
 .flexbox-container1{
     position: relative;
 width: 100%; 
-position: relative;
+height: ;
 justify-content: flex;
 margin-top: 0px;
-border: 2px solid green;
-
 }
 
 a:link { 
@@ -250,8 +259,14 @@ a:link {
  }
 
 .nav-list{
+    position: relative;
    display: inline-block;
-   margin-left: 1in;
+   font-family: lato;
+   font-size: 12px;
+   word-spacing: 30px;
+   top: 4.5px;
+   color: black;
+   margin-left: .5in;
    text-decoration: none;
    list-style: none;
 
@@ -260,15 +275,16 @@ a:link {
     .box-logos{
         position: relative;
         display: inline-block;
-        top: -30px;
-        left: 70px;
+        word-spacing: 10px;
+        top: -20px;
+        left: 75px;
         width: 200px;
         padding-left: 10px;
-        font-size: 12px;
+        font-size: 13px;
         text-decoration: none;
         list-style-type: none;
         margin-left: 11in;
-        border: 2px solid green;
+        
 
     }
 
@@ -277,7 +293,8 @@ a:link {
         text-align: center;
         width: 650px;
         height: 820px;
-        top: 167px;
+        top: 210px;
+        left: 5px;
         border: 1px solid rgb(217, 218, 217);
         padding: 50px;
         margin-left: 1.5in;
@@ -306,23 +323,23 @@ a:link {
         align-items: center;
         color: orange;
         font-size: 11px;
-        font-family: "thin lato";
+        font-family: lato;
         top: -20px;
         height: 40px;
         width: 175px;
-        left: 3px;
+        left: 2px;
         border: orange solid 2px;
     }
     .box4 hr{
         position: relative;
-        top: 1px;
+        top: 9px;
     }
     .box4 i{
         position: relative;
-        right: -278px;
+        right: -270px;
         font-size: 14px;
         letter-spacing: 15px;
-        top: -1px;
+        top: 25px;
         color: grey;
         border-radius: 50%;
         height: 50%px;
@@ -330,10 +347,12 @@ a:link {
     }
     .box4 h5{
         position: relative;
-        top: -45px;
-        left: -245px;
-        font-size: 15px;
-        font-family: "thin lato";
+        top: -20px;
+        left: -260px;
+        font-size: 14px;
+        font-family: oswald;
+        font-weight: lighter;
+       font-style: italic;
     }
     
     .box4 img{
@@ -352,7 +371,8 @@ a:link {
         text-align: center;
         width: 650px;
         height: 840px;
-        top: 345px;
+        top: 385px;
+        left: 5px;
         border: 1px solid rgb(143, 144, 143);;
         padding: 50px;
         margin-left: 1.5in;
@@ -361,28 +381,30 @@ a:link {
     .box5 h4{
         position: relative;
         top: -30px;
-        font-family: "thin lato";
+        font-family: lato;
         color: orange;
     }
     
     .box5 h2{
         position: relative;
         top: -40px;
-        font-family: "Latin";
+        font-family: oswald;
     }
     .box5 p{
         position: relative;
         top: -35px;
         line-height: 25px;
         text-align: left;
+        font-family: lato;
     }
     .box5 button{
         position: relative;
         align-items: center;
         color: orange;
         font-size: 11px;
-        font-family: "thin lato";
-        top: -15px;
+        font-family: lato;
+        top: -40px;
+        right: 15px;
         height: 40px;
         width: 175px;
         left: 3px;
@@ -390,11 +412,11 @@ a:link {
     }
     .box5 hr{
         position: relative;
-        top: 1px;
+        top: -10px;
     }
     .box5 i{
         position: relative;
-        right: -278px;
+        right: -270px;
         font-size: 14px;
         letter-spacing: 15px;
         top: 2px;
@@ -407,8 +429,10 @@ a:link {
         position: relative;
         top: -40px;
         left: -245px;
-        font-size: 15px;
-        font-family: "thin lato";
+        font-size: 14px;
+        font-family: lato;
+        font-weight: lighter;
+        font-style: italic;
     }
     
     .box5 img{
@@ -427,8 +451,9 @@ a:link {
         text-align: center;
         background-color: white;
         width: 650px;
-        height: 840px;
-        top: 545px;
+        height: 820px;
+        top: 585px;
+        left: 5px;
         border: 1px solid rgb(143, 144, 143);
         padding: 50px;
         margin-left: 1.5in;
@@ -437,43 +462,46 @@ a:link {
     .box6 h4{
         position: relative;
         top: -30px;
-        font-family: "thin lato";
+        font-family: lato;
+        font-weight: lighter;
         color: orange;
     }
     
     .box6 h2{
         position: relative;
         top: -40px;
-        font-family: "Latin";
+        font-family: oswald;
     }
     .box6 p{
         position: relative;
-        top: -35px;
+        top: -40px;
         line-height: 25px;
         text-align: left;
+        font-family: lato;
     }
     .box6 button{
         position: relative;
         align-items: center;
         color: orange;
         font-size: 11px;
-        font-family: "thin lato";
-        top: -18px;
+        font-family: lato;
+        letter-spacing: 1px;
+        top: -45px;
         height: 40px;
         width: 175px;
-        left: 3px;
-        border: orange solid 2px;
+        left: 1px;
+        border: orange solid 1px;
     }
     .box6 hr{
         position: relative;
-        top: -1px;
+        top: -10px;
     }
     .box6 i{
         position: relative;
-        right: -278px;
+        right: -270px;
         font-size: 14px;
         letter-spacing: 15px;
-        top: 2px;
+        top: 1px; 
         color: grey;
         border-radius: 50%;
         height: 50%px;
@@ -482,9 +510,11 @@ a:link {
     .box6 h5{
         position: relative;
         top: -45px;
-        left: -245px;
-        font-size: 15px;
-        font-family: "thin lato";
+        left: -255px;
+        font-size: 14px;
+        font-family: lato;
+        font-weight: lighter;
+        font-style: italic;
     }
     
     .box6 img{
@@ -502,11 +532,14 @@ a:link {
     position: relative;
     display: flex;
     flex-direction: column; 
-    bottom: 1614px;
+    font-family: oswald;
+    font-weight: normal;
+    font-size: 12px;
+    bottom: 1575px;
     left: 9.5in;
     align-items: flex-start;
     text-align: center;
-    height: 410px;
+    height: 415px;
     width: 255px;
     border: 1px solid rgb(218, 222, 218);
     padding: 50px;
@@ -519,8 +552,8 @@ a:link {
     height: 170px;
     width: 350px;
     text-align: center;
-    right: 50px;
-    bottom: 50px;
+    right: 45px;
+    bottom: 30px;
     justify-content: left;
 }
 .box7 hr{
@@ -533,13 +566,13 @@ a:link {
     height: 155px;
     width: 350px;
     text-align: center;
-    right: 50px;
-    bottom: 50px;
+    right: 45px;
+    bottom: 25px;
  }
  .box8 hr{
     position: relative;
-    top: 7px;
-    right: 10x;
+    top: 15px;
+    right: 10px;
     width: 300px;
  }
   .box9{
@@ -547,13 +580,13 @@ a:link {
     height: 160px;
     width: 350px;
     text-align: center;
-    right: 50px;
-    bottom: 50px;
+    right: 45px;
+    bottom: 1px;
   }
 
   .box9 hr{
     position: relative;
-    top: 5px;
+    top: -1px;
     right: 10x;
     width: 300px;
  }
@@ -563,8 +596,8 @@ a:link {
     height: 185px;
     width: 350px;
     text-align: center;
-    right: 50px;
-    bottom: 50px;
+    right: 45px;
+    bottom: -9px;
 }
 .box7img, .box8img, .box9img, .box10img{
     position: relative;
@@ -587,12 +620,13 @@ a:link {
     grid-auto-flow: column;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(2, 200px);
-    bottom: 1590px;
-    left: 9.5in;
+    bottom: 1555px;
+    
+    left: 915px;
     align-items: flex-start;
     text-align: center;
     height: 470px;
-    width: 255px;
+    width: 260px;
     border: 1px solid rgb(30, 75, 30);
     padding: 50px;
     margin: 20px;
@@ -605,6 +639,7 @@ a:link {
     width: 145px;
     height: 145px;
     padding: 5px;
+    
 }
 .box11{
     position: relative;
@@ -657,7 +692,7 @@ right: 320px;
     position: relative;
     height: .80in;
     width: 15in;
-    bottom: 3.2in;
+    bottom: 2.8in;
     font-family: "oswald";
     font-size: 11.5px;
     font-weight: 0;
@@ -676,7 +711,7 @@ right: 320px;
 
 .flexbox-container5{
     position: relative;
-    bottom: 3.2in;
+    bottom: 2.8in;
     border: 1px solid rgb(242, 87, 9);
     height: 175px;
     width: 15in;
@@ -685,4 +720,25 @@ right: 320px;
 .flexbox-container5 img{
     width: 180px;
     height: 175px;
+}
+.flexbox-container6{
+    position: relative;
+    font-family: "lato";
+    font-size: 10px;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(43, 42, 42);
+    bottom: 2.8in;
+    border: 1px solid rgb(242, 87, 9);
+    height: .70in;
+    width: 15in;
+}
+
+.box24{
+    position: relative;
+    align-content: center;
+    left: 6.0in;
+    letter-spacing: 1px;
+    top: 13.3px;
+    height: .65in;
 }
