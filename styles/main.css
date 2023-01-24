@@ -1,5 +1,5 @@
 body{
-background-color: rgb(244, 239, 239);
+background-color: rgb(247, 248, 248);
 }
 
 
@@ -247,11 +247,13 @@ h3 .second {
 
 
 .flexbox-container1{
+    display: flex;
     position: relative;
 width: 100%; 
 height: ;
 justify-content: flex;
 margin-top: 0px;
+background-color: whitesmoke;
 }
 
 a:link { 
@@ -269,6 +271,7 @@ a:link {
    margin-left: .5in;
    text-decoration: none;
    list-style: none;
+   
 
 }
 
@@ -544,6 +547,7 @@ a:link {
     border: 1px solid rgb(218, 222, 218);
     padding: 50px;
     margin: 20px;
+    background-color: white;
     
 } 
 
@@ -555,6 +559,7 @@ a:link {
     right: 45px;
     bottom: 30px;
     justify-content: left;
+    background-color: white;
 }
 .box7 hr{
     top: 10px;
@@ -616,12 +621,13 @@ a:link {
 
 .flexbox-container3{
     position: relative;
+    display: flex;
     display: grid;
     grid-auto-flow: column;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(2, 200px);
     bottom: 1555px;
-    
+    background-color: white;
     left: 915px;
     align-items: flex-start;
     text-align: center;
@@ -689,6 +695,7 @@ right: 320px;
 }
 
 .flexbox-container4{
+    display: flex;
     position: relative;
     height: .80in;
     width: 15in;
@@ -697,22 +704,21 @@ right: 320px;
     font-size: 11.5px;
     font-weight: 0;
     text-align: center;
-    border: 1px solid rgb(242, 87, 9);
+    
 }
 .box15 {
     position: relative;
     align-content: center;
     left: 6.6in;
     letter-spacing: 1px;
-    border: 1px solid rgb(242, 87, 9);
     top: 13px;
     height: .65in;
 }
 
 .flexbox-container5{
+    display: flex;
     position: relative;
     bottom: 2.8in;
-    border: 1px solid rgb(242, 87, 9);
     height: 175px;
     width: 15in;
 }
@@ -722,14 +728,14 @@ right: 320px;
     height: 175px;
 }
 .flexbox-container6{
+    display: flex;
     position: relative;
     font-family: "lato";
     font-size: 10px;
     color: white;
-    font-weight: 600;
+    font-weight: lighter;
     background-color: rgb(43, 42, 42);
     bottom: 2.8in;
-    border: 1px solid rgb(242, 87, 9);
     height: .70in;
     width: 15in;
 }
@@ -742,3 +748,22 @@ right: 320px;
     top: 13.3px;
     height: .65in;
 }
+
+.flexbox-container .flexbox-container1 .flexbox-container2 .flexbox-container3 .flexbox-container4 .flexbox-container5 ,.flexbox-container6{
+    flex-direction: row;
+}
+
+
+@media screen and (max-width: 768px) {
+    .flexbox-container .flexbox-container1 .flexbox-container2 .flexbox-container3 .flexbox-container4 .flexbox-container5 .flexbox-container6 .span1 {
+      display: block;
+      flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 200px;
+  justify-content: center;
+  order: 1;
+      
+    }
+  }
+
+  
