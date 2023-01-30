@@ -17,7 +17,8 @@ background-color: rgb(247, 248, 248);
     text-align: center;
     width: 650px;
     height: 820px;
-    top: 35px;
+    top: 40px;
+    right: -5px;
     border: 1px solid rgb(143, 144, 143);
     padding: 50px;
     margin-left: 1.5in;
@@ -89,11 +90,14 @@ align-items: left 2em;
 
 .box2 {
     position: relative;
-    top: 15px;
-    left: 10px;
+    text-align: center;
+    width: 650px;
+    height: 820px;
+    top: 7.54in;
+    right: 75px;
     align-items: flex-start;
-    height: 445px;
-    min-width: 260px;
+    min-height: 450px;
+    width: 260px;
     border: 1px solid rgb(143, 144, 143);
     padding: 50px;
     margin: 20px;
@@ -103,7 +107,7 @@ align-items: left 2em;
 .box2 img{
     position: relative;
     width: 360px;
-    height: 180px;
+    height: 190px;
     top: -50px;
     left: -50px;
     
@@ -114,6 +118,7 @@ align-items: left 2em;
     text-align: center;
     top: 50px;
     font-family: "Lato";
+    font-size: 18px;
 }
 .box2 p {
     position: relative;
@@ -121,17 +126,18 @@ align-items: left 2em;
     font-family: lato;
     line-height: 20px;
     top: 55px;
+    font-size: 14px;
 }
 .box2 i {
     position: relative;
     align-items: center;
     font-size: 11px;
-    top: 70px;
+    top: 85px;
     color: grey;
     border-radius: 50%;
     height: 50%px;
     width: 50%px;
-    left: 35px;
+    left: 1px;
     right: 10px;
     margin-left: 0px;
     margin-right: 10px;
@@ -143,10 +149,10 @@ align-items: left 2em;
 }
 
 .circlepicture {
-    position: absolute;
+   position: relative;
     border-radius: 50%;
-    left: 10.6in;
-    top: 140px;
+    right: -30px;
+    bottom: 8in;
     height: 180px;
     width: 180px;
     border: 6px solid rgb(254, 255, 255);
@@ -155,10 +161,10 @@ align-items: left 2em;
 
 .box3{
     position: relative;
-    top: 600px;
-    right: 390px;
-    min-height: 880px;
-    min-width: 255px;
+    top: 7.5in;
+    right: 70px;
+    height: 880px;
+    width: 255px;
     border: 1px solid rgb(143, 144, 143);
     padding: 50px;
     margin: 20px;
@@ -167,7 +173,7 @@ align-items: left 2em;
 .box3 h2{
     position: relative;
     top: -35px;
-    text-align: center;
+    left: -5px;
     font-family: oswald;
     font-weight: normal;
     font-size: 20px;
@@ -178,8 +184,9 @@ align-items: left 2em;
     font-size: 15px;
     font-family: oswald;
     font-weight: normal;
+    letter-spacing: 1px;
     top: -25px;
-    left: -15px;
+    left: -85px;
 }
 
 .box3 p{
@@ -197,7 +204,7 @@ align-items: left 2em;
     position: relative;
     width: 300px;
     left: -25px;
-    top: -25px
+    top: -20px
 }
     
     
@@ -206,27 +213,27 @@ align-items: left 2em;
     position: relative;
     width: 300px;
     height: 200px;
-    top: -20px;
-    left: -20px;
+    top: -25px;
+    left: -25px;
 }
 
 .box3img2 {
     position: relative;
     width: 300px;
     height: 200px;
-    top: -15px;
-    left: -20px;
+    top: -10px;
+    left: -25px;
 }
-.hr2 {
+.hr2 hr {
     position: relative;
-    padding-top: 4px;
+    top: 15px;
 }
-h3 .second {
+ .second h3{
     position: relative;
     font-size: 15px;
     font-family: oswald;
     font-weight: normal;
-    top: 5px;
+    top: 50px;
 }
 
 
@@ -234,14 +241,14 @@ h3 .second {
     position: relative;
     width: 300px;
     height: 200px;
-    top: -3px;
-    left: -20px;
+    top: 2px;
+    left: -25px;
     padding-bottom: 7px;
 }
 
 .h3 {
     position: relative;
-    top: 2px;
+    top: 10px;
 }
 
 
@@ -265,12 +272,13 @@ a:link {
    display: inline-block;
    font-family: lato;
    font-size: 12px;
-   word-spacing: 30px;
+   word-spacing: 20px;
    top: 4.5px;
    color: black;
    margin-left: .5in;
    text-decoration: none;
    list-style: none;
+   right: -10px;
    
 
 }
@@ -278,15 +286,15 @@ a:link {
     .box-logos{
         position: relative;
         display: inline-block;
-        word-spacing: 10px;
-        top: -20px;
-        left: 75px;
+        word-spacing: 12px;
+        top: 25px;
+        left: -220px;
         width: 200px;
         padding-left: 10px;
         font-size: 13px;
         text-decoration: none;
         list-style-type: none;
-        margin-left: 11in;
+        margin-left: 9in;
         
 
     }
@@ -296,9 +304,9 @@ a:link {
         text-align: center;
         width: 650px;
         height: 820px;
-        top: 210px;
-        left: 5px;
-        border: 1px solid rgb(217, 218, 217);
+        top: 1015px;
+        right: 890px;
+        border: 1px solid rgb(143, 144, 143);
         padding: 50px;
         margin-left: 1.5in;
         background-color: white;
@@ -374,8 +382,8 @@ a:link {
         text-align: center;
         width: 650px;
         height: 840px;
-        top: 385px;
-        left: 5px;
+        top: 1989px;
+        right: 1790px;
         border: 1px solid rgb(143, 144, 143);;
         padding: 50px;
         margin-left: 1.5in;
@@ -419,7 +427,7 @@ a:link {
     }
     .box5 i{
         position: relative;
-        right: -270px;
+        right: -275px;
         font-size: 14px;
         letter-spacing: 15px;
         top: 2px;
@@ -455,8 +463,8 @@ a:link {
         background-color: white;
         width: 650px;
         height: 820px;
-        top: 585px;
-        left: 5px;
+        top: 2990px;
+        right: 2680px;
         border: 1px solid rgb(143, 144, 143);
         padding: 50px;
         margin-left: 1.5in;
@@ -557,11 +565,12 @@ a:link {
     width: 350px;
     text-align: center;
     right: 45px;
-    bottom: 30px;
+    top: 9in;
     justify-content: left;
     background-color: white;
 }
 .box7 hr{
+    position: relative;
     top: 10px;
     right: 3px;
     width: 300px;
@@ -572,7 +581,7 @@ a:link {
     width: 350px;
     text-align: center;
     right: 45px;
-    bottom: 25px;
+    top: 9.1in;
  }
  .box8 hr{
     position: relative;
@@ -586,7 +595,7 @@ a:link {
     width: 350px;
     text-align: center;
     right: 45px;
-    bottom: 1px;
+    top: 9.3in;
   }
 
   .box9 hr{
@@ -602,7 +611,7 @@ a:link {
     width: 350px;
     text-align: center;
     right: 45px;
-    bottom: -9px;
+    top: 9.4in;
 }
 .box7img, .box8img, .box9img, .box10img{
     position: relative;
@@ -626,7 +635,7 @@ a:link {
     grid-auto-flow: column;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(2, 200px);
-    bottom: 1555px;
+    top: 8.8in;
     background-color: white;
     left: 915px;
     align-items: flex-start;
@@ -711,14 +720,15 @@ right: 320px;
     align-content: center;
     left: 6.6in;
     letter-spacing: 1px;
-    top: 13px;
+    top: 25.2in;
     height: .65in;
 }
 
 .flexbox-container5{
     display: flex;
     position: relative;
-    bottom: 2.8in;
+    margin-top: 22.2in;
+    margin-bottom: .5in;
     height: 175px;
     width: 15in;
 }
@@ -727,43 +737,52 @@ right: 320px;
     width: 180px;
     height: 175px;
 }
-.flexbox-container6{
-    display: flex;
+
+
+.box24{
     position: relative;
+  
+    right: 1440px;
+    letter-spacing: 1px;
     font-family: "lato";
     font-size: 10px;
     color: white;
     font-weight: lighter;
     background-color: rgb(43, 42, 42);
-    bottom: 2.8in;
-    height: .70in;
-    width: 15in;
+    top: 175px;
+    height: .75in;
+    min-width: 14.6in;
 }
 
-.box24{
-    position: relative;
-    align-content: center;
-    left: 6.0in;
-    letter-spacing: 1px;
-    top: 13.3px;
-    height: .65in;
+.box24 h3{
+   text-align: center;
 }
 
-.flexbox-container .flexbox-container1 .flexbox-container2 .flexbox-container3 .flexbox-container4 .flexbox-container5 ,.flexbox-container6{
-    flex-direction: row;
-}
+
 
 
 @media screen and (max-width: 768px) {
-    .flexbox-container .flexbox-container1 .flexbox-container2 .flexbox-container3 .flexbox-container4 .flexbox-container5 .flexbox-container6 .span1 {
-      display: block;
+   #main-section, #side-section {
+      
       flex-direction: column;
-  flex-wrap: wrap;
-  max-width: 200px;
-  justify-content: center;
-  order: 1;
+      overflow: auto;
+    flex-direction: left;
+    max-width: fit-content;
+    margin-left: 0in;
+viewport-fit: cover;
+ 
+ 
       
     }
   }
+  
 
+  @media screen and (max-width: 768px){
+    .flexbox-container1, .flexbox-container{
+        max-width: fit-content;
+        margin-left: 0in;
+    }
+  }
+
+  
   
