@@ -7,12 +7,13 @@ background-color: rgb(247, 248, 248);
 .flexbox-container{
     display: flex;
     position: relative;
-    height: 800px;
-    width: 800px;
+    height: 100%;
+    width: 100%;
    
     
 }
 .box1{
+   
     position: relative;
     text-align: center;
     width: 650px;
@@ -93,7 +94,7 @@ align-items: left 2em;
     text-align: center;
     width: 650px;
     height: 820px;
-    top: 7.54in;
+    top: 6in;
     right: 75px;
     align-items: flex-start;
     min-height: 450px;
@@ -152,7 +153,7 @@ align-items: left 2em;
    position: relative;
     border-radius: 50%;
     right: -30px;
-    bottom: 8in;
+    bottom: 9.5in;
     height: 180px;
     width: 180px;
     border: 6px solid rgb(254, 255, 255);
@@ -161,9 +162,9 @@ align-items: left 2em;
 
 .box3{
     position: relative;
-    top: 7.5in;
+    top: 6in;
     right: 70px;
-    height: 880px;
+    height: 885px;
     width: 255px;
     border: 1px solid rgb(143, 144, 143);
     padding: 50px;
@@ -181,7 +182,7 @@ align-items: left 2em;
 
 .box3 h3{
     position: relative;
-    font-size: 15px;
+    font-size: 13px;
     font-family: oswald;
     font-weight: normal;
     letter-spacing: 1px;
@@ -192,11 +193,11 @@ align-items: left 2em;
 .box3 p{
     position: relative;
     text-align: left;
-    font-size: 14px;
+    font-size: 12px;
     font-family: oswald ;
     font-style: italic;
     letter-spacing: 1px;
-    top: -25px;
+    top: -20px;
     left: -20px;
 }
 
@@ -204,7 +205,7 @@ align-items: left 2em;
     position: relative;
     width: 300px;
     left: -25px;
-    top: -20px
+    top: -10px
 }
     
     
@@ -221,19 +222,19 @@ align-items: left 2em;
     position: relative;
     width: 300px;
     height: 200px;
-    top: -10px;
+    top: 0px;
     left: -25px;
 }
-.hr2 hr {
+.hr2  {
     position: relative;
-    top: 15px;
+    top: 60px;
 }
  .second h3{
     position: relative;
     font-size: 15px;
     font-family: oswald;
     font-weight: normal;
-    top: 50px;
+    top: 60px;
 }
 
 
@@ -241,14 +242,14 @@ align-items: left 2em;
     position: relative;
     width: 300px;
     height: 200px;
-    top: 2px;
+    top: 25px;
     left: -25px;
     padding-bottom: 7px;
 }
 
 .h3 {
     position: relative;
-    top: 10px;
+    top: 50px;
 }
 
 
@@ -277,8 +278,9 @@ a:link {
    color: black;
    margin-left: .5in;
    text-decoration: none;
+   width: 4in;
    list-style: none;
-   right: -10px;
+   border: solid red;
    
 
 }
@@ -288,7 +290,7 @@ a:link {
         display: inline-block;
         word-spacing: 12px;
         top: 25px;
-        left: -220px;
+        right: 180px;
         width: 200px;
         padding-left: 10px;
         font-size: 13px;
@@ -550,52 +552,72 @@ a:link {
     left: 9.5in;
     align-items: flex-start;
     text-align: center;
-    height: 415px;
+    height: 460px;
     width: 255px;
-    border: 1px solid rgb(218, 222, 218);
+ 
     padding: 50px;
     margin: 20px;
-    background-color: white;
+   
     
 } 
 
+.flexbox-container6{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: red solid 2px;
+    top: 4.2in;
+    height: 510px;
+    width: 355px;
+    left: -55px;
+}
+.flexbox-container6 h2{
+    position: relative;
+    margin-top: 30px;
+}
+
 .box7{
     position: relative;
-    height: 170px;
-    width: 350px;
+    height: 389px;
+    width: 360px;
     text-align: center;
-    right: 45px;
-    top: 9in;
+    right: 2px;
+    top: -20px;
     justify-content: left;
-    background-color: white;
+    
 }
 .box7 hr{
     position: relative;
-    top: 10px;
+    top: 30px;
     right: 3px;
     width: 300px;
+    
 }
+
  .box8{
     position: relative;
-    height: 155px;
-    width: 350px;
+    height: 190px;
+    width: 360px;
     text-align: center;
-    right: 45px;
-    top: 9.1in;
+    right: -1px;
+    top: -50px;
+    
  }
  .box8 hr{
     position: relative;
-    top: 15px;
-    right: 10px;
+    top: 12px;
+    right: 2px;
     width: 300px;
  }
   .box9{
     position: relative;
-    height: 160px;
-    width: 350px;
+    height: 170px;
+    width: 360px;
     text-align: center;
-    right: 45px;
-    top: 9.3in;
+    right: 2px;
+    top: -25px;
+    
   }
 
   .box9 hr{
@@ -607,20 +629,24 @@ a:link {
   
   .box10 {
      position: relative;
-    height: 185px;
-    width: 350px;
+    height: 190px;
+    width: 360px;
     text-align: center;
-    right: 45px;
-    top: 9.4in;
+    right: 2px;
+    top: -20px;
+    
 }
 .box7img, .box8img, .box9img, .box10img{
     position: relative;
     height: 75px;
     width: 100px;
     right: 100px;
+    
 }
 .box7img{
-    top: 15px;
+    top: 30px;
+    
+    
 }
 
 .box8img{
@@ -635,9 +661,9 @@ a:link {
     grid-auto-flow: column;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(2, 200px);
-    top: 8.8in;
+    top: 6.9in;
     background-color: white;
-    left: 915px;
+    left: 910px;
     align-items: flex-start;
     text-align: center;
     height: 470px;
@@ -654,6 +680,7 @@ a:link {
     width: 145px;
     height: 145px;
     padding: 5px;
+    right: -5px;
     
 }
 .box11{
@@ -674,33 +701,37 @@ a:link {
     width: 150px;
     height: 340px;
     top: -175px;
-    right: 30px;
+    right: 35px;
 
 
 }
 
 .box13{
     position: relative; 
-    top: 25px;
+    top: 20px;
     right: 165px;
 
 }
-.box14{
-   
+.box13img{
+   top: 4px;
 }
+.box12img2{
+    top: -5px;
+}
+
 
 .box14img{
 position: relative;
-top: 140px;
-right: 320px;
+top: 135px;
+left: -155px;
 
 }
 
 
 .box14img2{
     position: relative;
-    top: -20px;
-    right: 165px;
+    top: -25px;
+    left: -315px;
 }
 
 .flexbox-container4{
@@ -708,26 +739,29 @@ right: 320px;
     position: relative;
     height: .80in;
     width: 15in;
-    bottom: 2.8in;
+    bottom: 4.8in;
     font-family: "oswald";
     font-size: 11.5px;
     font-weight: 0;
     text-align: center;
+   
     
 }
 .box15 {
     position: relative;
     align-content: center;
-    left: 6.6in;
+    
     letter-spacing: 1px;
-    top: 25.2in;
-    height: .65in;
+    top: 25.1in;
+    height: 1in;
+    width: 15in;
+    background-color: white;
 }
 
 .flexbox-container5{
     display: flex;
     position: relative;
-    margin-top: 22.2in;
+    margin-top: 20.3in;
     margin-bottom: .5in;
     height: 175px;
     width: 15in;
@@ -735,7 +769,7 @@ right: 320px;
 
 .flexbox-container5 img{
     width: 180px;
-    height: 175px;
+    height: 185px;
 }
 
 
@@ -751,7 +785,7 @@ right: 320px;
     background-color: rgb(43, 42, 42);
     top: 175px;
     height: .75in;
-    min-width: 14.6in;
+    min-width: 15in;
 }
 
 .box24 h3{
@@ -762,14 +796,14 @@ right: 320px;
 
 
 @media screen and (max-width: 768px) {
-   #main-section, #side-section {
-      
+   #main-section ,#side-section {
+      display: block;
       flex-direction: column;
       overflow: auto;
     flex-direction: left;
-    max-width: fit-content;
-    margin-left: 0in;
-viewport-fit: cover;
+    max-width: 700px;
+   
+
  
  
       
@@ -779,7 +813,7 @@ viewport-fit: cover;
 
   @media screen and (max-width: 768px){
     .flexbox-container1, .flexbox-container{
-        max-width: fit-content;
+        max-width: 700px;
         margin-left: 0in;
     }
   }
