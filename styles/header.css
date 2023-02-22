@@ -1,0 +1,7 @@
+header {
+  display: flex;
+}
+
+.nav-right {
+  margin-left: auto;
+}
