@@ -41,10 +41,10 @@ article {
 
 #profile {
   position: relative;
-  top: 0.42%;
+  top: 0.8%;
   right: 70px;
-  height: 3.1%;
-  width: 35%;
+  height: 5.1%;
+  width: 70%;
   left: 1.6%;
   border: 1px solid rgb(219, 60, 12);
   padding: 50px;
@@ -54,16 +54,73 @@ article {
 
 #profile-aside {
   position: relative;
-  height: 220%;
+  height: 270%;
   width: 360px;
   top: -12%;
   right: 190px;
 }
 
-#profile-aside img {
+#profile-aside-img {
   position: relative;
+  padding: 0%;
+  margin: 0%;
   width: 140%;
   height: 180px;
-  top: -45px;
-  left: -55px;
+  top: -60px;
+  right: 20%;
+}
+
+#profile-picture {
+  position: absolute;
+  border-radius: 50%;
+  max-width: 55%;
+  height: 17%;
+
+  border: 10px solid rgb(246, 244, 244);
+  left: 22%;
+  top: 9%;
+  padding: 0%;
+  margin: 0%;
+}
+#profile-aside p,
+h2 {
+  position: relative;
+  top: 4%;
+}
+
+.social-icons i {
+  position: relative;
+  top: 50%;
+  color: grey;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  word-spacing: 15px;
+  border: 1px solid black;
+  padding: 0%;
+  margin-top: 12%;
+  margin-left: 6px;
+  left: -10px;
+}
+
+.popular-post {
+  position: relative;
+  border: solid red 2px;
+  height: 9.4%;
+  width: 56%;
+  top: 1%;
+  right: -35px;
+}
+
+.popular-post img {
+  position: relative;
+  width: 75%;
+  height: 70%;
+  left: 10%;
+  top: 15px;
+}
+.popular-post h2 {
+  top: -1%;
+  text-align: center;
 }
