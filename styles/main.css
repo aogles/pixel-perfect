@@ -37,12 +37,46 @@ body {
   position: relative;
   top: -50px;
   height: 58%;
-  width: 115%;
+  width: 115.2%;
   right: 50px;
 }
+.main h4 {
+  position: relative;
+  top: -30px;
+}
+.main h2 {
+  position: relative;
+  top: -40px;
+}
+.main p {
+  position: relative;
+  line-height: 25px;
+  top: -30px;
+}
 
-.main img {
-  width: 100%;
+.main button {
+  position: relative;
+  top: -9px;
+  height: 40px;
+  width: 170px;
+  border: orange solid 1px;
+  color: orange;
+  background-color: rgb(245, 245, 245);
+  font-size: 11px;
+}
+.main time {
+  position: relative;
+  top: 50px;
+  font-size: 14px;
+  font-style: italic;
+  right: 170px;
+  word-spacing: 5px;
+}
+.main i {
+  position: relative;
+  top: 55px;
+  left: 190px;
+  letter-spacing: 15px;
 }
 
 .wrapper {
