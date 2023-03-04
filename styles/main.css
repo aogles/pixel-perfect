@@ -56,7 +56,7 @@ article {
   position: relative;
   height: 270%;
   width: 360px;
-  top: -12%;
+  top: -13%;
   right: 190px;
 }
 
@@ -66,7 +66,7 @@ article {
   margin: 0%;
   width: 140%;
   height: 180px;
-  top: -60px;
+  top: -45px;
   right: 20%;
 }
 
@@ -74,23 +74,23 @@ article {
   position: absolute;
   border-radius: 50%;
   max-width: 55%;
-  height: 17%;
+  height: 75%;
 
-  border: 10px solid rgb(246, 244, 244);
+  border: 8px solid rgb(246, 244, 244);
   left: 22%;
-  top: 9%;
+  top: 40%;
   padding: 0%;
   margin: 0%;
 }
 #profile-aside p,
 h2 {
   position: relative;
-  top: 4%;
+  top: 35%;
 }
 
 .social-icons i {
   position: relative;
-  top: 50%;
+  top: 10px;
   color: grey;
   border-radius: 50%;
   height: 30px;
@@ -107,9 +107,9 @@ h2 {
 .popular-post {
   position: relative;
   border: solid red 2px;
-  height: 9.4%;
+  height: 25.5%;
   width: 56%;
-  top: 1%;
+  top: 11.5%;
   right: -35px;
 }
 
@@ -123,4 +123,57 @@ h2 {
 .popular-post h2 {
   top: -1%;
   text-align: center;
+}
+
+.latest-post img {
+  position: relative;
+  height: 80px;
+  width: 105px;
+  left: 20px;
+  top: 10px;
+}
+
+.latest-post {
+  border: solid red 2px;
+  position: relative;
+  top: 11.9%;
+  height: 13.5%;
+  width: 57%;
+  left: 40px;
+}
+
+.instagram-feed {
+  position: relative;
+  display: flex;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 200px);
+  top: 12.4%;
+  background-color: white;
+  left: 2%;
+  align-items: flex-start;
+  text-align: center;
+  font-size: 11px;
+  height: 15%;
+  width: 57%;
+  border: 2px solid rgb(250, 16, 16);
+  padding: 50px;
+  margin: 20px;
+}
+.instagram-feed h2 {
+  top: -33px;
+  left: 60px;
+  font-family: oswald;
+  letter-spacing: 1px;
+}
+
+.instagram-feed img {
+  position: relative;
+  display: inline-block;
+  width: 155px;
+  height: 154px;
+  padding: 5px;
+  top: -175px;
+  right: 25px;
 }
