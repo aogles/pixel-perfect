@@ -9,15 +9,39 @@ html {
   box-sizing: inherit;
 }
 
+.nav-left {
+  position: relative;
+  font-size: 11.5px;
+  left: 150px;
+  word-spacing: 25px;
+  top: 20px;
+}
+.nav-right {
+  position: relative;
+  right: 120px;
+  word-spacing: 12px;
+  font-size: 13px;
+  top: 20px;
+}
+
 body {
   font-family: "Lato", sans-serif;
   font-size: 15px;
   color: #444;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
+  background-color: #f4f4f4;
 }
 
-img {
+.main img {
+  position: relative;
+  top: -50px;
+  height: 58%;
+  width: 115%;
+  right: 50px;
+}
+
+.main img {
   width: 100%;
 }
 
@@ -33,9 +57,13 @@ article {
   top: 95px;
   margin-bottom: 6%;
   right: -5px;
-  border: 1px solid rgb(9, 10, 9);
+
   padding: 50px;
   margin-left: 1.5in;
+  background-color: white;
+}
+
+#profile-aside article {
   background-color: white;
 }
 
@@ -46,10 +74,8 @@ article {
   height: 5.1%;
   width: 70%;
   left: 1.6%;
-  border: 1px solid rgb(219, 60, 12);
   padding: 50px;
   margin: 20px;
-  background-color: white;
 }
 
 #profile-aside {
@@ -62,8 +88,6 @@ article {
 
 #profile-aside-img {
   position: relative;
-  padding: 0%;
-  margin: 0%;
   width: 140%;
   height: 180px;
   top: -45px;
@@ -90,27 +114,29 @@ h2 {
 
 .social-icons i {
   position: relative;
-  top: 10px;
+  top: 40px;
   color: grey;
   border-radius: 50%;
   height: 30px;
   width: 30px;
+  font-size: 12px;
   text-align: center;
   word-spacing: 15px;
   border: 1px solid black;
   padding: 0%;
   margin-top: 12%;
   margin-left: 6px;
-  left: -10px;
+  left: -7px;
 }
 
 .popular-post {
   position: relative;
-  border: solid red 2px;
   height: 25.5%;
   width: 56%;
   top: 11.5%;
   right: -35px;
+  background-color: white;
+  border: solid grey 1px;
 }
 
 .popular-post img {
@@ -134,12 +160,13 @@ h2 {
 }
 
 .latest-post {
-  border: solid red 2px;
   position: relative;
   top: 11.9%;
   height: 13.5%;
   width: 57%;
   left: 40px;
+  background-color: white;
+  border: solid grey 1px;
 }
 
 .instagram-feed {
@@ -150,16 +177,17 @@ h2 {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 200px);
   top: 12.4%;
-  background-color: white;
+
   left: 2%;
   align-items: flex-start;
   text-align: center;
   font-size: 11px;
   height: 15%;
   width: 57%;
-  border: 2px solid rgb(250, 16, 16);
   padding: 50px;
   margin: 20px;
+  background-color: white;
+  border: solid grey 1px;
 }
 .instagram-feed h2 {
   top: -33px;
@@ -176,4 +204,54 @@ h2 {
   padding: 5px;
   top: -175px;
   right: 25px;
+}
+.ig-feed2 img {
+  position: relative;
+  left: 130px;
+  top: -645px;
+}
+
+.footer {
+  position: relative;
+
+  bottom: -320px;
+  height: 245px;
+  width: 15in;
+  color: rgb(242, 239, 239);
+  background-color: #444;
+}
+.insta-images {
+  display: flex;
+}
+.footer p {
+  position: relative;
+  text-align: center;
+  right: 2px;
+  top: -75px;
+  font-size: 13px;
+  word-spacing: 3px;
+}
+
+.footer img {
+  position: relative;
+
+  display: inline-block;
+  height: 180px;
+  width: 180px;
+  right: -0px;
+  top: -90px;
+  padding: 0px;
+}
+.insta-header {
+  position: relative;
+  top: -90px;
+  height: 80px;
+  background-color: white;
+  text-align: center;
+
+  font-size: 11px;
+  color: #444;
+  font-family: oswald;
+  font-weight: lighter;
+  letter-spacing: 1px;
 }
