@@ -479,6 +479,17 @@ p {
     justify-content: center;
   }
 }
+@media screen and (max-width: 768px) {
+  .main time,
+  i {
+    display: flex;
+    flex-direction: column;
+    display: block;
+    max-width: 70vw;
+    height: 100%;
+    justify-content: center;
+  }
+}
 
 @media screen and (max-width: 768px) {
   .footer {
